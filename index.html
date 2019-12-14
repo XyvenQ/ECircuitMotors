@@ -1,0 +1,123 @@
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1" xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:dc="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" class="js">
+
+<head profile="">
+
+</head>
+
+<body>
+    <form>
+        <p>Primary Operating Points: Enter 2 of the following 3 fields</p>
+        <div>
+            <label>Operating Point Speed (RPM)
+            </label>
+            <input class="" type="number" placeholder="" max="100000" min="0" required>
+        </div>
+        <div>
+            <label>Operating Point Torque (NM)
+            </label>
+            <input class="" type="number" placeholder="" required max="100000" min="0">
+        </div>
+        <div>
+            <label>Operating Point Power (Watts)
+            </label>
+            <input type="number" placeholder="" required max="100000" min="0">
+        </div>
+        <br>
+        <p>Secondary Operating Points: Enter 2 of the following 3 fields</p>
+        <div>
+            <label>Operating Point Speed (RPM)
+            </label>
+            <input class="" type="number" placeholder="" max="100000" min="0" required>
+        </div>
+        <div>
+            <label>Operating Point Torque (NM)
+            </label>
+            <input class="" type="number" placeholder="" required max="100000" min="0">
+        </div>
+        <div>
+            <label>Operating Point Power (Watts)
+            </label>
+            <input type="number" placeholder="" required max="100000" min="0">
+        </div>
+        <br>
+        <div>
+            <label>Radius of the Board (Maximum in cm)
+            </label>
+            <input class="" type="number" placeholder="" max="100000" min="0" required>
+        </div>
+        <div>
+            <label>Radius of the Center Hole (Maximum in cm)
+            </label>
+            <input class="" type="number" placeholder="" required max="100000" min="0">
+        </div>
+        <div>
+            <label>Magnet Thickness (Maximum in cm)
+            </label>
+            <input type="number" placeholder="" required max="100000" min="0">
+        </div>
+        <div>
+            <label>Maximum Copper Thickness (cm)
+            </label>
+            <input class="" type="number" placeholder="" max="100000" min="0" required>
+        </div>
+        <div>
+            <label>Efficiency target (1.0 = 100%)
+            </label>
+            <input class="" type="number" placeholder="" required max="1" min="0">
+        </div>
+        <div>
+            <label>(TSF)Thermal Safety Factor Target (1.0 is continuous duty)
+            </label>
+            <input type="number" placeholder="" required max="1" min="0">
+        </div>
+        <div>
+            <label>Maximum Number of Layers (24 or less)
+            </label>
+            <input class="" type="number" placeholder="" max="24" min="0" required>
+        </div>
+        <div>
+            <label>Supply Voltage
+            </label>
+            <input class="" type="number" placeholder="" required max="100000" min="0">
+        </div>
+        <br>
+        <div>
+            <label>Maximize Operating Point Efficiency and TSF 
+            </label>
+            <input class="" type="checkbox" placeholder="" required>
+        </div>
+        <div>
+            <label>Operating Point Efficiency > Target, TSF > Target, and Minimize Board Radius
+            </label>
+            <input class="" type="checkbox" placeholder="" required>
+        </div>
+        <div>
+            <label>Operating Point Efficiency > Target, TSF > Target, and Maximize Hole Radius 
+            </label>
+            <input class="" type="checkbox" placeholder="" required>
+        </div>
+        <div>
+            <label>Maximize kt (torque constant) and TSF > Target 
+            </label>
+            <input class="" type="checkbox" placeholder="" required>
+        </div>
+        <div>
+            <label>Maximize Torque, TSF > target, Operating Point Efficiency > Target 
+            </label>
+            <input class="" type="checkbox" placeholder="" required>
+        </div>
+        <div>
+            <label>Minimize Volume, TSF > Target, Operating Point Efficiency > Target 
+            </label>
+            <input class="" type="checkbox" placeholder="" required>
+        </div>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
